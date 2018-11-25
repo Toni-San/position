@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+.all {
+	width: 1200px;
+	margin: auto;
+}
+.red, .green, .blue {
+	width: 100px;
+	height: 100px;
+}
+.red {
+	background-color: #ae0000;
+	
+}
+
+.green {
+	background-color: #148501;
+	position: sticky;
+	top: 0;
+}
+.green span {
+	background-color: aqua;
+	
+}
+.blue {
+	background-color:#010a85;
+	
+}
+.top {
+	display: none;
+	background-color: rgba(0,0,0,0.56);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1
+}
+.mytext {
+	margin: auto;
+	background-color: #fff;
+	max-width: 300px;
+	max-height: 150px;
+	overflow: auto;
+}
